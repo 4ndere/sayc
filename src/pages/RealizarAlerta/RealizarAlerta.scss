@@ -1,0 +1,122 @@
+#alertar {
+  .swiper.swiper-initialized.swiper-horizontal.swiper-ios.swiper-backface-hidden {
+    margin-top: -60px;
+    border-radius: 4px;
+  }
+
+  .form-alertar {
+    margin-top: 32px;
+  }
+
+  .edit-image-alert {
+    margin-top: -26px;
+    z-index: 100;
+    position: inherit;
+
+    ion-col {
+      ion-button {
+        --border-radius: 4px;
+        --background: #F6F6E6;
+        --color: #333333;
+        font-weight: 600;
+        height: 38px;
+
+        ion-text {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+
+  .btn-ghost {
+    --background: none;
+    --box-shadow: none;
+    border: 1px solid #353958;
+    border-radius: 4px;
+    height: 27px;
+    --color: #353958;
+    margin-right: 1px;
+
+    ion-text {
+      margin-left: 4px;
+    }
+
+  }
+
+  .title_mapa {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+  }
+
+  .subtitle_mapa {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style:italic;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .mapa-alertar::part(native) {
+    height: 224px;
+  }
+
+
+  ion-fab-button:nth-child(1) {
+    display: none;
+  }
+
+  .btn-filtros {
+    display: none;
+  }
+
+
+
+  .fab-button {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    top: 175px;
+    right: 300px;
+    transition: all 0.1s ease-in-out;
+    /* Animación de transformación al pasar el mouse sobre los botones */
+    z-index: 999;
+  }
+  .locateRefTab3{
+    right: 0;
+  }
+
+
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-container ion-modal {
+    --background: rgba(255, 255, 255, 0);
+    --box-shadow: none;
+    --height: 1;
+  }
+
+  .leaflet-control-attribution.leaflet-control {
+    display: none;
+  }
+
+  .item-wrapper {
+    margin-top: 35px;
+  }
+
+  .location-wrap {
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}

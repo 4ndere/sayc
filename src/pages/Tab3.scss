@@ -1,0 +1,292 @@
+#page-mapa {
+  .map-container {
+    height: 100%;
+    width: 100%;
+
+    .swiper.swiper-initialized.swiper-horizontal.swiper-ios.swiper-backface-hidden {
+      margin-top: -60px;
+      border-radius: 4px;
+    }
+
+    .form-alertar {
+      margin-top: 32px;
+    }
+
+    .edit-image-alert {
+      margin-top: -26px;
+      z-index: 100;
+      position: inherit;
+
+      ion-col {
+        ion-button {
+          --border-radius: 4px;
+          --background: #F6F6E6;
+          --color: #333333;
+          font-weight: 600;
+          height: 38px;
+
+          ion-text {
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+
+    .btn-ghost {
+      --background: none;
+      --box-shadow: none;
+      border: 1px solid #353958;
+      border-radius: 4px;
+      height: 27px;
+      --color: #353958;
+      margin-right: 1px;
+
+      ion-text {
+        margin-left: 4px;
+      }
+    }
+
+    .title_mapa {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #333333;
+    }
+
+    .subtitle_mapa {
+      margin-top: 10px;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    .mapa-alertar::part(native) {
+      height: 224px;
+    }
+
+    ion-fab-button:nth-child(1) {
+      display: none;
+    }
+
+    .btn-filtros {
+      display: none;
+    }
+
+    .fab-button {
+      position: absolute;
+      width: 35px;
+      height: 30px;
+      top: 175px;
+      right: 300px;
+      transition: all 0.1s ease-in-out;
+      /* Animación de transformación al pasar el mouse sobre los botones */
+      z-index: 999;
+    }
+
+    .locateRefTab3 {
+      right: 0;
+    }
+
+    .map-container {
+      height: 100%;
+      width: 100%;
+    }
+
+    .map-container ion-modal {
+      --background: rgba(255, 255, 255, 0);
+      --box-shadow: none;
+      --height: 1;
+    }
+
+    .leaflet-control-attribution.leaflet-control {
+      display: none;
+    }
+
+    .item-wrapper {
+      margin-top: 35px;
+    }
+
+    .location-wrap {
+      align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+p{
+  margin: 0;
+}
+  .circular-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+    /* Ajusta el valor de z-index según sea necesario */
+  }
+
+  .leaflet-control-attribution.leaflet-control {
+    display: none;
+  }
+
+  .leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+    opacity: 1;
+    height: 15px;
+  }
+
+  /* Estilo para el contenido del modal */
+  .modal-wrapper {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 25px;
+    width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    /* Ajusta el valor de z-index según sea necesario */
+  }
+
+  .map-container ion-modal {
+    --background: rgba(255, 255, 255, 0);
+    --box-shadow: none;
+    --height: 1;
+  }
+
+  .fab-button {
+    width: 50px;
+    /* Ancho de los botones */
+    height: 50px;
+    /* Altura de los botones */
+    margin: 20px;
+    /* Margen entre los botones */
+    transition: all 0.1s ease-in-out;
+    /* Animación de transformación al pasar el mouse sobre los botones */
+  }
+
+  .fab-button:hover {
+    transform: scale(1.15);
+    /* Escala ligeramente el botón al pasar el mouse sobre él */
+  }
+
+  ion-modal .modal-wrapper ion-button {
+    --background: #007aff;
+    /* Color de fondo */
+    --color: #fff;
+    /* Color del texto */
+    --border-radius: 20px;
+    /* Radio de borde */
+    margin: 15px;
+    display: flex;
+  }
+
+  .item-wrapper {
+    margin-top: 35px;
+  }
+
+  ion-modal .placeholder-wrap {
+    font-size: 14px;
+  }
+
+  .location-wrap {
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #alertas_recibidas {
+    ion-img {
+      width: 120px;
+      height: 120px;
+    }
+
+    ion-img::part(image) {
+      object-fit: cover;
+      object-position: center;
+    }
+
+    ion-segment {
+      width: 95%;
+      margin: auto;
+      margin-top: -68px;
+      padding-top: 40px;
+      padding-bottom: 16px;
+    }
+
+    ion-segment-button {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-transform: capitalize;
+      border-radius: 4px;
+      background-color: #ffffff;
+      margin-right: 20px;
+      font-size: 12px;
+      font-weight: 600;
+
+      &:nth-last-child(1) {
+        margin-right: 0px;
+      }
+
+      ion-label {
+        max-width: inherit;
+      }
+    }
+
+    ion-segment-button.segment-button-checked {
+      background: #f6f6e6;
+      box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+      position: relative;
+      top: -12px;
+      color: #353958;
+      font-weight: 600;
+    }
+
+    ion-segment-button::part(indicator) {
+      display: none;
+    }
+  }
+
+  ion-segment-button.segment-button-checked {
+    background: #f6f6e6;
+    box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+    position: relative;
+    top: -12px;
+    color: #353958;
+    font-weight: 600;
+  }
+
+  ion-segment-button::part(indicator) {
+    display: none;
+  }
+}
+
+
+.leaflet-popup-content{
+  margin: 0 !important;
+  width: 23em;
+}

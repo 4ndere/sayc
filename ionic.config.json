@@ -1,0 +1,12 @@
+{
+  "name": "sayc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "sassConfig": {
+    "includePaths": [
+      "node_modules"
+    ]
+  }
+}

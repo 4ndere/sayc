@@ -1,0 +1,23 @@
+#page-notificaciones {
+  ion-list {
+    margin-top: 118px;
+  }
+
+  .btn-notificaciones {
+    width: inherit;
+    height: inherit;
+    --background: #999999;
+    margin-left: 18px;
+  }
+
+  .btn-chatear {
+    width: inherit;
+    height: inherit;
+    --background: #00ff00;
+    margin-left: 18px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+}

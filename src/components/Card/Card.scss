@@ -1,0 +1,158 @@
+#card-component {
+  strong {
+    color: #333333;
+  }
+  position: relative;
+  ion-card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+  }
+  a {
+    cursor: pointer;
+  }
+  padding-bottom: 14px;
+  ion-card-header {
+    padding: 10px;
+  }
+  ion-card-content {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  ion-img {
+    margin: 6px 0px 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ion-img::part(image) {
+    border-radius: 4px;
+  }
+  span {
+    width: 28px;
+    height: 28px;
+    background-color: #f6f6e6;
+    right: 0px;
+    bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 100%;
+    font-size: 22px;
+    color: #333333;
+  }
+}
+
+#example-modal {
+
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  z-index: 20009;
+  width: 90%;
+  height: 85%;
+  margin: auto;
+  .art-patente {
+    margin-top: -10px;
+  }
+  strong {
+    color: #333333;
+  }
+  ion-toolbar {
+    --background: none;
+  }
+  ion-card {
+    margin: 0;
+    background: none;
+    box-shadow: none;
+  }
+  ion-grid {
+    width: 100%;
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+  ion-card-content {
+    padding-left: 26px;
+    p {
+      margin-top: 8px;
+    }
+  }
+  ion-toolbar {
+    position: absolute;
+    ion-buttons {
+      width: 38px;
+      span {
+        margin: auto;
+      }
+    }
+  }
+  // SOLO AGREGUÉ ESTO MAXI AAA
+  ion-img {
+    max-height: 222px;
+    display: flex;
+    align-items: center;
+  }
+  ion-card-subtitle {
+    .patente {
+      width: max-content;
+      margin-left: auto;
+      padding: 8px 21px;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+
+      color: #444;
+
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 175% */
+    }
+  }
+  span {
+    width: 28px;
+    height: 28px;
+    background-color: #f6f6e6;
+    right: -4px;
+    bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 100%;
+    font-size: 22px;
+    color: #333333;
+  }
+
+
+
+}
+
+.alert-lo-encontre .alert-input-wrapper.sc-ion-alert-md input{
+  border-bottom: 1px solid #ddd;
+}
+
+.alert-lo-encontre .alert-input-wrapper.sc-ion-alert-md input:focus {
+  border-bottom: 1px solid #ddd;
+}
+
+hr {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  background-color: #cccccc;
+}
+
+.ml-auto {
+  margin-left: auto;
+  display: block;
+}
+
+.btn-loencontre {
+  width: 90%;
+  margin: auto;
+  display: block;
+  margin-bottom: 16px;
+}

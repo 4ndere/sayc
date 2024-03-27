@@ -1,0 +1,103 @@
+#alertas_recibidas {
+  ion-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  ion-img::part(image) {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  ion-segment {
+    width: 95%;
+    margin: auto;
+    margin-top: -66px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+
+  ion-segment-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 600;
+
+    &:nth-last-child(1) {
+      margin-right: 0px;
+    }
+
+    ion-label {
+      max-width: inherit;
+    }
+  }
+
+  ion-segment-button.segment-button-checked {
+    background: #f6f6e6;
+    box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+    position: relative;
+    top: -12px;
+    color: #353958;
+    font-weight: 600;
+  }
+
+  ion-segment-button::part(indicator) {
+    display: none;
+  }
+
+  .btn-filtro-alertas {
+    --border-radius: 4px;
+    --background: #fff;
+    --box-shadow: 0px 8px 12px 0px rgba(102, 102, 102, 0.15);
+    color: #444;
+    height: 42px;
+  }
+}
+
+#example-modal {
+
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  z-index: 20009;
+  width: 90%;
+  height: 85%;
+  margin: auto;
+
+  .btn-filtro-modal-aplicar {
+    --border-radius: 4px;
+    --background: #353958;
+    --box-shadow: 0px 8px 12px 0px rgba(245, 235, 235, 0.15);
+    height: 35px;
+    width: 119px;
+    margin-left: 49px;
+  }
+
+  .btn-filtro-modal-eliminar {
+    --border-radius: 4px;
+    --background: #353958;
+    --box-shadow: 0px 8px 12px 0px rgba(245, 235, 235, 0.15);
+    height: 35px;
+    width: 119px;
+  }
+  
+  span {
+    width: 28px;
+    height: 28px;
+    background-color: #f6f6e6;
+    right: -4px;
+    bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 100%;
+    font-size: 22px;
+    color: #333333;
+  }
+
+
+
+}

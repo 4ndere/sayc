@@ -1,0 +1,109 @@
+#page-inicio {
+
+  ion-img {
+    box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+    margin-top: -38px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+  .sub-title {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 28px;
+    margin-bottom: 4px;
+  }
+  .btn-inicio {
+    height: 88px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 8px 24px 0px rgba(102, 102, 102, 0.25);
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 8px 0px 4px 16px;
+    }
+    p {
+      color: #353958;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0px 0px 4px 16px;
+    }
+    span {
+      margin-left: 18px;
+      margin-top: -3px;
+      font-size: 22px;
+    }
+  }
+
+
+  .btn-alertar {
+    border-radius: 4px;
+    --background: #f6f6e6;
+    box-shadow: 0px 4px 16px 0px rgba(102, 102, 102, 0.25);
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    width: max-content;
+    height: 28px;
+    margin-left: auto;
+    display: block;
+    overflow: hidden;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+
+  .ico-alertar {
+    background: #f6f6e6;
+    filter: drop-shadow(0px 0px 16px rgba(102, 102, 102, 0.25));
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(102, 102, 102, 0.25));
+    display: inline-block;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  .section-alert {
+    .ico-alertar {
+      padding: 6px;
+      position: relative;
+      bottom: -24px;
+      z-index: 1;
+      left: 18px;
+    }
+  }
+  ion-card {
+    margin: 0;
+    ion-card-title {
+      color: #eeeeee;
+      margin-top: 20px;
+    }
+    ion-card-subtitle {
+      color: #dddddd;
+    }
+    background-color: #54668e;
+    ion-input {
+      background: #f0f4fd;
+      color: #777777;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 116.667% */
+      text-transform: uppercase;
+    }
+  }
+}

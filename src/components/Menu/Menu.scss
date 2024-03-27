@@ -1,0 +1,77 @@
+ion-menu {
+  .route-active {
+    background: #d6d7dd !important;
+    color: #54668e;
+    font-weight: 600;
+  }
+  ion-list,
+  ion-item {
+    background: none !important;
+    --background: none;
+  }
+  hr {
+    background: #dddddd;
+    height: 1px;
+    margin-bottom: 32px;
+  }
+  ion-avatar {
+    width: 48px;
+    height: 48px;
+  }
+
+  .menu-toolbar {
+    padding-top: 48px !important;
+    --padding-start: var(--ion-padding, 16px);
+    --padding-end: var(--ion-padding, 16px);
+    padding-bottom: 0 !important;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    --background: #f0f4fd;
+    color: #333333;
+    ion-title {
+      font-weight: 600;
+    }
+  }
+}
+
+#main-content {
+  ion-item {
+    --background: none;
+    color: inherit !important;
+    --padding-start: 0;
+    ion-avatar {
+      width: 52px;;
+      display: flex;
+      align-items: center;
+      ion-icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+  ion-avatar::after {
+    content: "2";
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: black;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: relative;
+    bottom: -8px;
+    left: -12px;
+    background: #f6f6e6;
+  }
+
+  .title-bar {
+    height: 100%;
+  }
+}

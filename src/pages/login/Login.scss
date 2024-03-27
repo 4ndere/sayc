@@ -1,0 +1,44 @@
+#login {
+  .fondo_logo_login{
+    display: block;
+    margin-bottom: 96px;
+    position: relative;
+  }
+  ion-avatar {
+    background: #54668e;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    bottom: 0;
+    h1{
+      font-size: 24px;
+    }
+  }
+
+  ion-text h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  ion-text {
+    font-size: 12px;
+  }
+
+  ion-button {
+    margin-top: 98px;
+  }
+
+  .boton {
+    color: aqua;
+  }
+
+
+}
+
